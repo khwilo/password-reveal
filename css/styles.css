@@ -31,7 +31,8 @@ h1 {
 }
 
 button:focus {
-  border: 1px solid var(--clr-blue);
+  outline: 1px solid var(--clr-blue);
+  border: none;
 }
 
 .wrapper {

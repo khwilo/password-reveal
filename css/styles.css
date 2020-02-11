@@ -58,6 +58,7 @@ button:focus {
 }
 
 .toggle-displayBtn {
+  text-transform: uppercase;
   border-left: none;
   color: var(--clr-white);
   font-weight: bold;

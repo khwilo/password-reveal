@@ -30,11 +30,6 @@ h1 {
   text-decoration: underline;
 }
 
-button:focus {
-  outline: 1px solid var(--clr-blue);
-  border: none;
-}
-
 .wrapper {
   border: 3px solid var(--clr-black);
   padding: 2em;
@@ -53,6 +48,12 @@ button:focus {
   border: 2px solid var(--clr-black);
 }
 
+.toggle-displayBtn:focus {
+  outline: 1px solid var(--clr-blue);
+  border: none;
+  background-color: var(--clr-blue);
+}
+
 .form__control {
   flex: 1;
   height: 2em;
@@ -63,6 +64,6 @@ button:focus {
   border-left: none;
   color: var(--clr-white);
   font-weight: bold;
-  background-color: var(--clr-blue);
+  background-color: var(--clr-black);
   cursor: pointer;
 }

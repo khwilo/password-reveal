@@ -48,12 +48,12 @@ button:focus {
   display: flex;
 }
 
-.form__input,
+.form__control,
 .toggle-displayBtn {
   border: 2px solid var(--clr-black);
 }
 
-.form__input {
+.form__control {
   flex: 1;
   height: 2em;
 }
